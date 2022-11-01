@@ -16,6 +16,8 @@
     "socket.io": "^4.5.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
