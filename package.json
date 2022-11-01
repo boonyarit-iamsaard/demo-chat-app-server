@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "lint": "eslint . --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -18,6 +19,7 @@
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1"
   }
