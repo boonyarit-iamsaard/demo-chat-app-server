@@ -12,7 +12,7 @@ app.get('/api', (req, res) => {
   });
 });
 
-const port = 3000;
+const port = 5000;
 http.listen(port, () => {
   console.log(`Server running on port: ${port}`);
 });
